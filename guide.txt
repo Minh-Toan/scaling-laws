@@ -1,0 +1,22 @@
+Core files:
+- func.py: for theoretical predictions
+- hmc.py: for Hamiltonian Monte-Carlo
+- sgd.py: for SGD with ADAM optimizer
+
+Data generating files:
+- data_err.py: generates 'err_data_beta_03/'
+- data_overlap: generates 'overlaps_data/'
+- data_sgd_varying_widths_1.py: generates 'sgd_data_beta_1/'
+- data_sgd_varying_widths_2.py: generates 'sgd_data_beta_1_new/'
+
+
+Data folders:
+- err_data_beta_03: for fig 2, left
+- overlaps_data: for the overlaps vs. feature index plots
+- sgd_data_beta_1: for the fig 1, middle
+- sgd_data_beta_1_new: for the fig1, left (scaling laws in data)
+- sgd_data_beta_1_kc: generalization error for student's width = effective width (kc), beta = 1
+
+Data processing + plots: files with name plot_fig_[].ipynb. 
+plot_fig_2b.ipynb can also be used to generate overlap vs. feature figures in the appendix. 
+
